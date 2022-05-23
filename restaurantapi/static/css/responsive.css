@@ -1,0 +1,808 @@
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .work-time-list li .wtl-time::before {
+        display: none;
+    }
+    .single-blog .blog-content {
+        padding: 10px 20px 25px;
+    }
+    .single-blog .blog-content .blog-text {
+        margin-bottom: 15px;
+    }
+    /*home-2*/
+    .home2-ourstore-bg {
+        height: 50%;
+    }
+    /*home4*/
+    .home4-book {
+        padding: 45px 15px;
+    }
+    .h4-book-input-box input[type="submit"] {
+        padding: 0 20px;
+    }
+    /*shop-page*/
+    .sah-select-view ul {
+        margin: 0;
+    }
+    .sah-select-view ul li a {
+        font-size: 12px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-top-social {
+        padding: 0 10px 0 0;
+    }
+    .header-top-social ul li {
+        margin-right: 10px;
+    }
+    .header-top-intro {
+        padding: 0 0 0 10px;
+    }
+    .ht-opening-time {
+        padding: 0 10px;
+    }
+    .ht-language {
+        padding: 0 10px;
+    }
+    .ht-shopping-cart {
+        padding: 0 12px;
+    }
+    .home1-ourstore-bg1 {
+        height: 25%;
+        top: 55%;
+    }
+    .home1-ourstore-bg2 {
+        height: 45%;
+        top: 50%;
+    }
+    .popular-dish-item {
+        width: 33.33%;
+    }
+    .blog-area {
+        padding: 21px 0 10px;
+    }
+    .single-blog {
+        margin-bottom: 100px;
+    }
+    .single-blog .blog-content {
+        padding: 30px 20px 25px;
+    }
+    .single-footer-item {
+        min-height: 220px;
+    }
+    /*home-2*/
+    .signature-dishes-area-bg {
+        width: 35%;
+    }
+    /*home-3*/
+    .home3-about-health-right {
+        margin-top: 60px;
+    }
+    .single-h3sla .h3sla-img {
+        width: 20%;
+    }
+    .single-h3sla .h3sla-content {
+        width: 80%;
+    }
+    .single-h3sla .h3sla-content {
+        padding: 0 0 0 15px;
+        width: 80%;
+    }
+    .home3-hero-carousel .owl-nav .owl-prev {
+        left: 0;
+    }
+    .home3-hero-carousel .owl-nav .owl-next {
+        right: 0;
+    }
+    /*home4*/
+    .home4-book {
+        padding: 45px 10px;
+    }
+    .h4-book-input-box input[type="submit"] {
+        padding: 0 8px;
+    }
+    .h4-signature-dishes-area {
+        padding: 9px 0 50px;
+    }
+    .h4-single-signature-dishes {
+        margin: 0 0 30px;
+    }
+    .home4-banner-content {
+        top: 30%;
+    }
+    .home4-get-touch-area {
+        padding: 89px 0 50px;
+    }
+    .single-h4-get-touch {
+        margin: 0 0 30px;
+    }
+    /*about-us*/
+    .abi-small img {
+        width: 100%;
+    }
+    .abi-large img {
+        width: 100%;
+    }
+    .about-banner-img {
+        margin: 20px 0 0;
+    }
+    .about-banner-head {
+        margin: 0;
+    }
+    /*reservation*/
+    .reservation-banner {
+        height: 60%;
+        left: 1%;
+        top: 43%;
+        width: 28%;
+    }
+    /*menu1*/
+    .m1sc-lr1 {
+        margin: 30px 0;
+        padding: 0;
+    }
+    /*our-service*/
+    .service-counter-box p {
+        font-size: 12px;
+    }
+    /*shop-page*/
+    .shop-top-box img {
+        width: 100%;
+    }
+    .shop-top-box {
+        margin: 0 0 30px;
+    }
+    .shop-area-head > div {
+        margin: 0 0 25px;
+    }
+    .sah-search {
+        width: 38%;
+    }
+    .sah-sorting {
+        width: 60%;
+    }
+    .sah-show {
+        width: 60%;
+    }
+    .sah-select-view {
+        width: 38%;
+    }
+    .shop-area-head {
+        padding: 33px 30px 5px;
+    }
+    /*single-product*/
+    .single-product-desc-area {
+        margin: 30px 0 0;
+    }
+    /*cart*/
+    .get-coupon-box input[type="text"] {
+        margin: 0 0 30px;
+        width: 100%;
+    }
+    /*pricing*/
+    .single-pricing-table {
+        margin: 0 0 30px;
+    }
+}
+
+
+/*home2-ourstore-bg-tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .home2-ourstore-bg {
+        display: none;
+    }
+    /*blog-archive*/
+    .blog-sidebar {
+        margin: 60px auto auto;
+        width: 360px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .header-top-left {
+        text-align: center;
+    }
+    .header-top-right {
+        text-align: center;
+    }
+    .my-cart {
+        right: 25px;
+    }
+    .home-one-hero-area {
+        padding: 150px 0 185px;
+    }
+    .home1-ourstore-bg2 {
+        display: none;
+    }
+    .home1-ourstore-bg1 {
+        display: none;
+    }
+    .popular-dish-item {
+        width: 50%;
+    }
+    .lunch-content-img {
+        margin: 0 0 50px;
+    }
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    .single-blog .blog-img a img {
+        width: 100%;
+    }
+    .book-form-row > div > div {
+        width: 100%;
+    }
+    .single-footer-item {
+        margin-bottom: 60px;
+    }
+    .single-blog .blog-img {
+        width: 100%;
+    }
+    .single-blog .blog-img::before {
+        bottom: -17px;
+        left: 50%;
+        right: auto;
+        top: auto;
+        -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+        -o-transform: translateX(-50%) rotate(45deg);
+        transform: translateX(-50%) rotate(45deg);
+    }
+    .single-blog.sb-cl .blog-img::before {
+        left: 50%;
+        right: auto;
+        top: -17px;
+        -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+        -o-transform: translateX(-50%) rotate(45deg);
+        transform: translateX(-50%) rotate(45deg);
+    }
+    .single-blog .blog-content {
+        width: 100%;
+    }
+    /*home-2*/
+    .home2-ourstore-bg {
+        display: none;
+    }
+    .h2-os-contents .single-h2-os-content {
+        margin-bottom: 10px;
+    }
+    .signature-dishes-area-bg {
+        display: none;
+    }
+    /*home-3*/
+    .home3-hero-carousel .owl-nav {
+        display: none;
+    }
+    .home3-hero .h3h-title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .home3-about-health-right {
+        margin-top: 50px;
+    }
+    .single-h3pdca {
+        width: 50%;
+    }
+    .single-h3sla:last-child {
+        margin-bottom: 30px;
+    }
+    /*home4*/
+    .h4-ssd-img img {
+        width: 100%;
+    }
+    .home4-book {
+        padding: 25px 5px;
+    }
+    .h4-book-input-box input[type="text"] {
+        margin: 0 0 8px;
+        width: 48%;
+    }
+    .h4-book-input-box input[type="submit"] {
+        float: none;
+    }
+    .h4-single-signature-dishes {
+        margin: 0 0 30px;
+    }
+    .h4-signature-dishes-area {
+        padding: 9px 0 0;
+    }
+    .h4gt-img img {
+        width: 100%;
+    }
+    /*about-us*/
+    .about-banner-img::before,
+    .about-banner-img::after {
+        display: none;
+    }
+    .abi-small img:nth-child(1) {
+        margin: 0;
+    }
+    .about-banner-img {
+        margin: 20px 0 0;
+    }
+    /*reservation*/
+    .reservation-banner {
+        display: none;
+    }
+    /*reservation2*/
+    .ra2-bic-input-box {
+        margin: 0 0 20px;
+    }
+    .ra2-mdc-date {
+        margin: 0 0 20px;
+    }
+    /*menu1*/
+    .m1sc-lr1 {
+        margin: 30px 0;
+        padding: 0;
+    }
+    .m1scdb-title-sticker {
+        left: 0;
+        position: unset;
+    }
+    /*menu2*/
+    .m2-lta-banner {
+        display: none;
+    }
+    /*our-service*/
+    .other-pages {
+        padding: 0 10px;
+    }
+    .service-counter-box {
+        margin: 0 0 30px;
+    }
+    .service-counter-area {
+        padding: 99px 0 65px;
+    }
+    /*blog-archive*/
+    .bac-meta {
+        display: block;
+    }
+    .bac-tags {
+        float: none;
+    }
+    .bas-video iframe {
+        height: 320px;
+    }
+    .blog-sidebar {
+        margin: 60px auto auto;
+        width: 360px;
+    }
+    /*blog-single*/
+    .blog-single-blockquote p {
+        padding-left: 100px;
+    }
+    .bs-tags {
+        display: block;
+    }
+    .bs-share {
+        display: block;
+        float: none;
+    }
+    /*shop-page*/
+    .shop-top-box {
+        margin: 0 0 30px;
+    }
+    .shop-area-head > div {
+        margin: 0 0 20px;
+    }
+    .sah-search {
+        width: 40%;
+    }
+    .sah-sorting {
+        width: 56%;
+    }
+    .sah-show {
+        width: 56%;
+    }
+    .sah-select-view {
+        width: 40%;
+    }
+    .shop-pagination ul li {
+        margin: 0 -2px;
+    }
+    .shop-top-box img {
+        width: 100%;
+    }
+    .ssp-img img {
+        width: 100%;
+    }
+    /*single-product*/
+    .single-product-desc-area {
+        margin: 30px 0 0;
+    }
+    /*cart*/
+    .get-coupon {
+        margin: 0 0 30px;
+    }
+    .get-coupon-box input[type="text"] {
+        margin: 0 0 30px;
+        width: 100%;
+    }
+    /*our-chef*/
+    .single-team {
+        margin: 0 0 30px;
+    }
+    /*contact*/
+    .get-in-touch-area {
+        padding: 75px 0 45px;
+    }
+    .get-in-touch-box {
+        margin: 0 0 30px;
+    }
+    /*pricing*/
+    .single-pricing-table {
+        margin: 0 0 30px;
+    }
+    /*404*/
+    .errors-search-box input[type="text"] {
+        width: 45%;
+    }
+    .errors-search-box button {
+        padding: 8px 45px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    .header-top-left > div {
+        display: block;
+    }
+    .header-top-social {
+        border-right: 0 none;
+        padding: 0;
+        text-align: center;
+    }
+    .header-top-intro {
+        padding: 0;
+        text-align: center;
+    }
+    .header-top-right {
+        text-align: center;
+    }
+    .header-top-right .ht-opening-time {
+        border-left: 0 none;
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+    .my-cart {
+        right: 20px;
+        top: 70px;
+        width: 260px;
+    }
+    .reservation > a {
+        padding: 7px 20px;
+    }
+    .home-one-hero-area {
+        padding: 80px 0 110px;
+    }
+    .home-one-hero-content p {
+        width: 100%;
+    }
+    .home1-ourstore-bg1 {
+        display: none;
+    }
+    .home1-ourstore-bg2 {
+        display: none;
+    }
+    .popular-dish-item {
+        width: 100%;
+    }
+    .lunch-content-img {
+        margin: 10px 0 60px;
+    }
+    .single-blog .blog-content .blog-text {
+        margin-bottom: 20px;
+    }
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    .book-form-row > div > div {
+        width: 100%;
+    }
+    .single-footer-item {
+        margin-bottom: 30px;
+    }
+    .single-blog .blog-img {
+        width: 100%;
+    }
+    .single-blog .blog-img::before {
+        bottom: -17px;
+        left: 50%;
+        right: auto;
+        top: auto;
+        -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+        -o-transform: translateX(-50%) rotate(45deg);
+        transform: translateX(-50%) rotate(45deg);
+    }
+    .single-blog.sb-cl .blog-img::before {
+        left: 50%;
+        right: auto;
+        top: -17px;
+        -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+        -o-transform: translateX(-50%) rotate(45deg);
+        transform: translateX(-50%) rotate(45deg);
+    }
+    .single-blog .blog-content {
+        width: 100%;
+    }
+    /*home-2*/
+    .home2-ourstore-bg {
+        display: none;
+    }
+    .h2-os-contents .single-h2-os-content {
+        margin-bottom: 10px;
+    }
+    .signature-dishes-area-bg {
+        display: none;
+    }
+    /*home-3*/
+    .home3-hero-area {
+        padding: 120px 0 150px;
+    }
+    .home3-hero .h3h-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .home3-hero .h3h-discover {
+        padding: 5px 30px;
+    }
+    .home3-hero-carousel .owl-nav {
+        display: none;
+    }
+    .home3-about-health-right {
+        margin-top: 37px;
+    }
+    .single-h3pdca {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .home3-specilized-lunch-area {
+        background: rgba(0, 0, 0, 0) none no-repeat scroll left top / cover;
+    }
+    .single-h3sla .h3sla-img {
+        width: 100%;
+    }
+    .single-h3sla .h3sla-content {
+        padding: 22px 0 0;
+        width: 100%;
+    }
+    .single-h3sla:last-child {
+        margin-bottom: 30px;
+    }
+    .home3-specilized-lunch-area {
+        padding: 89px 0 50px;
+    }
+    /*home4*/
+    .h4-hero-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .home4-book {
+        padding: 20px 10px;
+    }
+    .h4-book-input-box input[type="text"] {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    .h4-book-input-box input[type="submit"] {
+        float: none;
+    }
+    .h4-signature-dishes-area {
+        padding: 9px 0 0;
+    }
+    .h4-single-signature-dishes {
+        margin: 0 0 20px;
+    }
+    /*about-us*/
+    .other-pages {
+        padding: 0 10px;
+    }
+    .op-list {
+        float: none;
+        margin-top: 15px;
+    }
+    .about-banner-img::before,
+    .about-banner-img::after {
+        display: none;
+    }
+    .abi-small {
+        margin: 0 0 15px;
+    }
+    .about-banner-img {
+        margin: 20px 0 0;
+    }
+    .abi-small img {
+        width: 100%;
+    }
+    .abi-large img {
+        width: 100%;
+    }
+    /*reservation*/
+    .reservation-banner {
+        display: none;
+    }
+    /*reservation2*/
+    .ra2-bic-input-box {
+        margin: 0 0 20px;
+    }
+    .ra2-mdc-date {
+        margin: 0 0 20px;
+    }
+    /*menu1*/
+    .m1scdb-title-sticker {
+        left: 0;
+        position: unset;
+    }
+    .m1sc-lr1 {
+        margin: 0 0 30px;
+        padding: 0;
+    }
+    /*menu2*/
+    .m2-lta-banner {
+        display: none;
+    }
+    /*our-service*/
+    .wpb-icon {
+        width: 18%;
+    }
+    .wpb-content {
+        width: 82%;
+    }
+    .single-swbia {
+        padding: 35px 20px 20px;
+    }
+    .swbia-order {
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+    .service-counter-box {
+        margin: 0 0 30px;
+    }
+    .service-counter-area {
+        padding: 99px 0 65px;
+    }
+    .our-service-box {
+        padding: 29px 10px 26px 40px;
+    }
+    /*blog-archive*/
+    .bac-meta {
+        display: block;
+    }
+    .bac-tags {
+        float: none;
+    }
+    .bas-video iframe {
+        height: 195px;
+    }
+    .blog-sidebar {
+        margin: 60px auto auto;
+    }
+    /*blog-single*/
+    .blog-single-blockquote p {
+        padding-left: 80px;
+    }
+    .bs-tags {
+        display: block;
+    }
+    .bs-share {
+        display: block;
+        float: none;
+    }
+    .bsc-img {
+        width: 25%;
+    }
+    .bsc-content {
+        width: 100%;
+    }
+    .bs-commnet-box-reply {
+        margin-left: 25px;
+    }
+    .bs-commnet-box-leave-message {
+        margin-left: 25px;
+    }
+    .bsrca-box {
+        padding: 30px;
+    }
+    /*shop-page*/
+    .shop-top-box {
+        margin: 0 0 30px;
+    }
+    .shop-area-head > div {
+        margin: 0 0 20px;
+    }
+    .sah-search {
+        width: 100%;
+    }
+    .sah-sorting {
+        width: 100%;
+    }
+    .sah-show {
+        width: 100%;
+    }
+    .sah-select-view {
+        width: 100%;
+    }
+    .shop-pagination ul li {
+        margin: 0 -2px;
+    }
+    /*single-product*/
+    .single-product-desc-area {
+        margin: 30px 0 0;
+    }
+    .sp-quantity-addcart-addwishlist > div {
+        margin: 0 0 15px;
+    }
+    .sprpa-head {
+        margin: 0 0 90px;
+    }
+    /*cart*/
+    .get-coupon {
+        margin: 0 0 30px;
+    }
+    .get-coupon-box input[type="text"] {
+        margin: 0 0 30px;
+        width: 100%;
+    }
+    .update-checkout button {
+        margin: 0 0 10px;
+    }
+    /*checkout*/
+    .ch-box a {
+        float: none;
+        font-size: 11px;
+        margin: 0;
+    }
+    /*our-chef*/
+    .single-team {
+        margin: 0 0 30px;
+    }
+    /*contact*/
+    .get-in-touch-area {
+        padding: 75px 0 45px;
+    }
+    .get-in-touch-box {
+        margin: 0 0 30px;
+    }
+    /*pricing*/
+    .single-pricing-table {
+        margin: 0 0 30px;
+    }
+    /*coming-soon*/
+    .timer-area .cdown {
+        border: 1px solid #f1f1f1;
+        width: 48%;
+    }
+    .cs-subscribe input[type="text"] {
+        font-size: 12px;
+    }
+    /*404*/
+    .errors-search-box input[type="text"] {
+        width: 100%;
+    }
+}

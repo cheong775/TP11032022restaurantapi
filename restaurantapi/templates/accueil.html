@@ -1,0 +1,121 @@
+<html>
+<head>
+     <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/icofont.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/jquery.timepicker.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/jquery-ui.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/jquery.fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/meanmenu.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/typography.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/responsive.css') }}">
+
+<title>restaurant réservation</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- book-table-area-start -->
+    <div class="book-area">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="book-area-head">
+                         <h1>{{affichage}}</h1>
+                         <h3>{{username}}</h3>
+                        <div> réserver une tableau: </div>
+
+                    </div>
+                    <div class="book-form-area">
+                        <form  action="{{url_for('.homeindex')}}" method="post">
+                            <div class="book-form-row">
+                                <div class="clearfix">
+                                    <div class="book-input-name">
+                                        <input type="text" name="userName" placeholder="Your Name *">
+                                    </div>
+                                    <div class="book-input-email">
+                                        <input type="email" name="userEmail" placeholder="Your Email *">
+                                    </div>
+                                    <div class="book-input-number">
+                                        <input type="text" name="userTele" placeholder="Mobile Number *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="book-form-row">
+                                <div class="clearfix">
+                                    <div class="book-input-date">
+                                        <input id="datepicker" name="bookDate" type="text" placeholder="Date *">
+                                    </div>
+                                    <div class="book-input-time">
+                                        <input id="scrollDefaultExample" name="bookTemps" type="text" placeholder="Time *">
+                                    </div>
+                                    <div class="book-input-persons">
+                                        <input type="text" name="nombrePer" placeholder="No. of Persons *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="book-input-book">
+                                <input class="hvr-bs" type="submit" name="soumettre" value="Book Now">
+                            </div>
+                        </form>
+                        <div> {{ tipReussi }}</div>
+                        <div> {{ "Nom et prénom: %s" % userN }}</div>
+                        <div> {{ "Email: %s" % userE }}</div>
+                        <div> {{ "Telephone: %s" % userT }}</div>
+                        <div> {{ "Date réservé:  %s" % userbd }}</div>
+                        <div> {{ "Temps: %s" % userbt }}</div>
+                        <div> {{ "Nombre personne:  %s" % userq }}</div>
+                        <div>  </div>
+                        <div>s'enquérir réservation </div>
+                        <form method="get">
+                            <input type="text" name="usert" placeholder="entré votre Email">
+                            <input type="submit" value="s'enquérir">
+                        </form >
+                        <div>info réservation : {{infoBook}}</div>
+                        <div>continue à prendre <a href="{{url_for('.homeindex')}}">nouveau réservation</a> </div>
+
+
+
+                        <div>annuel réservation </div>
+                        <form method="post" action="{{url_for('.homeindex')}}">
+                            <input type="text" name="telephone" placeholder="entré votre telephone">
+                            <input type="hidden" value="DELETE" name="_method">
+                            <input value="Submit" type="submit">
+                        </form>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- book-table-area-end -->
+
+</body>
+</html>
+
+<script src="{{ url_for('static',filename='js/jquery-3.2.0.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='js/owl.carousel.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/countdown.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jquery.timepicker.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jquery.meanmenu.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jquery-ui.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jquery.scrollUp.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jquery.mixitup.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/theme.js') }}"></script>
